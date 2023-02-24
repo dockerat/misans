@@ -10,9 +10,6 @@ clone:
 steps:
   - name: 代码
     image: ccr.ccs.tencentyun.com/dronestock/git
-    settings:
-      github:
-        boost: true
 
   - name: 发布
     image: ccr.ccs.tencentyun.com/dronestock/docker
